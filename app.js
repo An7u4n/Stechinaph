@@ -1,5 +1,6 @@
 const images = document.getElementsByClassName('gallery-img');
 const slideBtn = document.getElementById('slide-btn');
+const slideCloseBtn = document.getElementById('close-btn');
 
 // Crear Imagen Con Zoom
 function zoomImage(image) {
@@ -27,6 +28,11 @@ for (let i = 0; i < images.length; i++) {
 }
 
 slideBtn.addEventListener('click', () => {
+	document.querySelector('aside').classList.toggle('active');
+	document.querySelector('#slide-btn').classList.toggle('active');
+});
+
+slideCloseBtn.addEventListener('click', () => {
 	document.querySelector('aside').classList.toggle('active');
 	document.querySelector('#slide-btn').classList.toggle('active');
 });

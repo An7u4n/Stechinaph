@@ -38,7 +38,7 @@
 	#slide-btn {
 		display: block;
 		font-weight: 600;
-		color: #b65e17;
+		color: #e3751a;
 		cursor: pointer;
 		margin-left: 3vw;
 		transition: all 200ms ease-in-out;
@@ -51,6 +51,9 @@
 	}
 	.form-container .form-img {
 		height: 50vw;
+	}
+	header nav a h2 {
+		font-weight: 600;
 	}
 }
 
@@ -66,9 +69,6 @@
 	}
 	.cuerpo_articulo {
 		font-size: 12px;
-	}
-	aside {
-		width: 70vw;
 	}
 	.link {
 		font-size: 20px;

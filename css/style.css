@@ -18,12 +18,12 @@ header {
 	width: 100%;
 	background-color: #f5f5f5;
 	height: 50px;
-	border-bottom: 1px solid #b65e17;
+	border-bottom: 1px solid #e3751a;
 }
 
 header nav a h2 {
 	font-family: 'logofont', sans-serif;
-	color: #b65e17;
+	color: #e3751a;
 	transition: 400ms;
 	font-size: 30px;
 }
@@ -52,12 +52,12 @@ header nav {
 	box-sizing: border-box;
 	font-family: 'linkfont', sans-serif;
 	font-weight: 700;
-	color: #b65e17;
+	color: #e3751a;
 	transition: 300ms;
 }
 
 .link {
-	color: #b65e17;
+	color: #e3751a;
 	display: block;
 	font-family: 'linkfont', sans-serif;
 	font-weight: 700;
@@ -67,21 +67,36 @@ header nav {
 	text-align: center;
 }
 
-aside {
-	width: 25vw;
-	background-color: white;
+.aside-nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	height: 100%;
+}
+
+aside {
+	width: 70vw;
+	background-color: white;
 	position: fixed;
-	left: -25vw;
+	left: -70vw;
 	height: 100%;
 	transition: all 200ms ease-in-out;
 }
 
 aside.active {
 	left: 0;
+}
+
+#close-btn {
+	position: absolute;
+	left: 80%;
+	color: #e3751a;
+	text-align: right;
+	font-weight: 700;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 20px;
 }
 
 header nav a:hover {
@@ -94,7 +109,7 @@ header nav span {
 }
 
 #slide-btn.active {
-	margin-left: 28vw;
+	display: none;
 }
 
 .contenedor {
@@ -129,7 +144,7 @@ header nav span {
 	margin-bottom: 35px;
 	font-family: 'titulos', sans-serif;
 	font-weight: 800;
-	color: #b65e17;
+	color: #e3751a;
 	text-align: center;
 }
 
@@ -224,7 +239,7 @@ form input::placeholder {
 
 form input {
 	padding: 8px;
-	border: 1px solid #b65e17;
+	border: 1px solid #e3751a;
 	color: black;
 }
 
@@ -241,9 +256,9 @@ form input[type='date'] {
 form button[type='submit'] {
 	margin: 10px 0;
 	padding: 10px;
-	border: 1px solid #b65e17;
+	border: 1px solid #e3751a;
 	font-family: 'cuerpo', sans-serif;
-	background-color: #b65e17;
+	background-color: #e3751a;
 	color: white;
 	font-weight: 700;
 	font-size: 70%;
