@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'logofont';
+	src: url('../fonts/Satisfy-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'linkfont';
+	src: url('../fonts/SignikaNegative-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: 'redesfont';
+	src: url('../fonts/UbuntuMono-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'cuerpo';
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'subtitulos';
+	src: url('../fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: 'titulos';
+	src: url('../fonts/Akatab-Regular.ttf');
+}

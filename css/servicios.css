@@ -1,0 +1,29 @@
+.contenedor {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 25px;
+}
+
+.contenedor .servicio {
+	border: 2px solid rgb(63, 63, 63);
+	display: flex;
+	height: 250px;
+}
+
+.servicio .contenido {
+	padding: 3%;
+}
+
+.servicio .contenido .titulo_articulo {
+	color: rgb(63, 63, 63);
+	font-family: 'subtitulos', sans-serif;
+	margin-top: 1%;
+}
+
+.servicio .imagen {
+	height: 100%;
+}
+
+.servicio .imagen img {
+	height: 100%;
+}
